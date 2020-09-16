@@ -134,7 +134,7 @@ var uppercaseAcronym = map[string]string{
 	"VBD":     "vbd",
 	"WWE":     "wwe",
 	"ZIP":     "zip",
-	"SKU":     "SKU",
+	"SKU":     "sku",
 }
 
 func AddAcronym(acronym, v string) {
