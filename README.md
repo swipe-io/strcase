@@ -1,8 +1,8 @@
 # strcase
-[![Godoc Reference](https://godoc.org/github.com/iancoleman/strcase?status.svg)](http://godoc.org/github.com/iancoleman/strcase)
-[![Build Status](https://travis-ci.org/iancoleman/strcase.svg)](https://travis-ci.org/iancoleman/strcase)
-[![Coverage](http://gocover.io/_badge/github.com/iancoleman/strcase?0)](http://gocover.io/github.com/iancoleman/strcase)
-[![Go Report Card](https://goreportcard.com/badge/github.com/iancoleman/strcase)](https://goreportcard.com/report/github.com/iancoleman/strcase)
+[![Godoc Reference](https://godoc.org/github.com/swipe-io/strcase?status.svg)](http://godoc.org/github.com/swipe-io/strcase)
+[![Build Status](https://travis-ci.org/swipe-io/strcase.svg)](https://travis-ci.org/swipe-io/strcase)
+[![Coverage](http://gocover.io/_badge/github.com/swipe-io/strcase?0)](http://gocover.io/github.com/swipe-io/strcase)
+[![Go Report Card](https://goreportcard.com/badge/github.com/swipe-io/strcase)](https://goreportcard.com/report/github.com/swipe-io/strcase)
 
 strcase is a go package for converting string case to various cases (e.g. [snake case](https://en.wikipedia.org/wiki/Snake_case) or [camel case](https://en.wikipedia.org/wiki/CamelCase)) to see the full conversion table below.
 
@@ -25,9 +25,13 @@ s := "AnyKind of_string"
 | `ToCamel(s)`                              | `AnyKindOfString`    |
 | `ToLowerCamel(s)`                         | `anyKindOfString`    |
 
-
 ## Install
 
 ```bash
-go get -u github.com/iancoleman/strcase
+go get -u github.com/swipe-io/strcase
 ```
+
+
+## Origin library
+
+iancoleman [strcase](https://github.com/iancoleman/strcase)
